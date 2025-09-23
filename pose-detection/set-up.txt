@@ -1,0 +1,15 @@
+
+# Do this only once:
+mkdir wekinator-poses
+cd wekinator-poses
+npm init -y
+npm install ws osc
+
+# Do this every time you run:
+cd wekinator-poses
+node bridge.js
+
+
+WebSocket server up on ws://localhost:8081
+
+INPUT: 34 (FULL BODY), 12 (ARMS)
